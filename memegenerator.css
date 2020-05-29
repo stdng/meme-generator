@@ -1,0 +1,150 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    font-size: 3em;
+    color: transparent;
+    background-image: linear-gradient(to right, #e79176, #b0dc88, #68d09d, #5b98a4, #a7a7e4);
+    -webkit-background-clip: text;
+    animation: animate 7s linear infinite;
+    background-size: 1000%;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 100%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 100%;
+    }
+}
+
+#heading {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+/* align inputs to center */
+input[type="text"] {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.3125rem;
+    /* height: 1em; */
+    padding: 1.5rem 3.125rem;
+    border: none;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type="URL"] {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.3125rem;
+    height: 1em;
+    padding: 1.5rem 3.125rem;
+    border: none;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type='submit'] {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.3125rem;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    width: 8rem;
+}
+
+.button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 0.3125rem;
+    padding: 15px;
+    border: none;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    width: 8rem;
+}
+
+/* center the labels  */
+.idStyleChange {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 40rem;
+    height: 5px;
+}
+
+input[type=URL] {
+    width: 40rem;
+    height: 5px;
+}
+
+.col-lg-3 {
+    width: 40%;
+    min-width: 230px;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    margin: 1em;
+}
+
+.col-lg-3 img {
+    max-width: 100%;
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+}
+
+.text11 {
+    position: absolute;
+    color: white;
+    padding: 4px;
+    font-size: 2em;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: fit-content;
+}
+
+.text22 {
+    position: absolute;
+    color: white;
+    padding: 4px;
+    font-size: 2em;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: fit-content;
+}
+
+.imageCSS {
+    width: 500px;
+}
