@@ -1,6 +1,6 @@
 let form = document.querySelector('form');
 let topText = document.querySelector('#topcomment');
-let imageSubmit = document.querySelector('#imagesss'); //the whole element 
+let imageSubmit = document.querySelector('#imagesss');
 let bottomText = document.querySelector('#bottomcomment');
 let section = document.querySelector('.memeImage');
 
